@@ -36,4 +36,50 @@
         android:textColor="#333"
         android:layout_height="wrap_content"
          />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#333333"
+        android:text="50px"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:textColor="#FFF"
+        android:layout_height="50px" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#333333"
+        android:text="100px"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:layout_marginBottom="5dp"
+        android:layout_height="100px" />
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#333333"
+        android:text="150px"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:layout_marginBottom="5dp"
+        android:layout_height="150px" />
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#333333"
+        android:text="200px"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:layout_marginBottom="5dp"
+        android:layout_height="200px" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:text="测试"
+        android:layout_height="wrap_content" />
 </LinearLayout>
